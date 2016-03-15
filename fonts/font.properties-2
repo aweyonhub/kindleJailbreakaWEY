@@ -1,0 +1,130 @@
+# @(#)font.properties	1.5 97/11/25
+#
+#  Copyright (c) 1994-1996 by Sun Microsystems Inc
+#
+# Please keep Browser up-to-date with these fonts.
+# Sync the following file: .../trunk/device/apps/browser_booklet/prefs/netfront.ini
+
+# Serif font definition
+#
+serif.0=Serif_Regular.ttf
+serif.1=Serif_Bold.ttf
+serif.2=Serif_Italic.ttf
+serif.3=Serif_BoldItalic.ttf
+serif.plain=Serif_Regular.ttf
+serif.bold=Serif_Bold.ttf
+serif.italic=Serif_Italic.ttf
+serif.bolditalic=Serif_BoldItalic.ttf
+
+# SansSerif font definition
+#
+sansserif.0=Sans_Regular.ttf
+sansserif.1=Sans_Bold.ttf
+sansserif.2=Sans_Italic.ttf
+sansserif.3=Sans_BoldItalic.ttf
+sansserif.plain=Sans_Regular.ttf
+sansserif.bold=Sans_Bold.ttf
+sansserif.italic=Sans_Italic.ttf
+sansserif.bolditalic=Sans_BoldItalic.ttf
+
+sanserif.0=Sans_Regular.ttf
+sanserif.1=Sans_Bold.ttf
+sanserif.2=Sans_Italic.ttf
+sanserif.3=Sans_BoldItalic.ttf
+sanserif.plain=Sans_Regular.ttf
+sanserif.bold=Sans_Bold.ttf
+sanserif.italic=Sans_Italic.ttf
+sanserif.bolditalic=Sans_BoldItalic.ttf
+
+# Monospaced font definition
+#
+monospaced.0=Mono_Regular.ttf
+monospaced.1=Mono_Bold.ttf
+monospaced.2=Mono_Italic.ttf
+monospaced.3=Mono_BoldItalic.ttf
+monospaced.plain=Mono_Regular.ttf
+monospaced.bold=Mono_Bold.ttf
+monospaced.italic=Mono_Italic.ttf
+monospaced.bolditalic=Mono_BoldItalic.ttf
+
+# Dialog font definition
+#
+dialog.0=Sans_Regular.ttf
+dialog.1=Sans_Bold.ttf
+dialog.2=Sans_Italic.ttf
+dialog.3=Sans_BoldItalic.ttf
+dialog.plain=Sans_Regular.ttf
+dialog.bold=Sans_Bold.ttf
+dialog.italic=Sans_Italic.ttf
+dialog.bolditalic=Sans_BoldItalic.ttf
+
+# Dialoginput font definition
+#
+dialoginput.0=Sans_Regular.ttf
+dialoginput.1=Sans_Bold.ttf
+dialoginput.2=Sans_Italic.ttf
+dialoginput.3=Sans_BoldItalic.ttf
+dialoginput.plain=Sans_Regular.ttf
+dialoginput.bold=Sans_Bold.ttf
+dialoginput.italic=Sans_Italic.ttf
+dialoginput.bolditalic=Sans_BoldItalic.ttf
+
+# Symbol font definition
+#
+symbol.0=Kindle_Symbol.ttf
+symbol.plain=Kindle_Symbol.ttf
+
+monospacedsymbol.0=Kindle_MonospacedSymbol.ttf
+monospacedsymbol.plain=Kindle_MonospacedSymbol.ttf
+
+# Default font definition
+#
+# default.char=274f
+default.0=Sans_Regular.ttf
+
+# name aliases
+#
+# alias.timesroman=serif
+# alias.helvetica=sansserif
+# alias.courier=monospaced
+
+# Static FontCharset info.
+#
+# This information is used by the font which is not indexed by Unicode.
+# Such fonts can use their own subclass of FontCharset.
+#
+# This information can be overriden by describing more specific style.
+# For example
+#
+#  fontcharset.serif.plain.3=SpecialSymbols
+#  means serif.plain.3 font's index can be retrieved with the convert() method
+#  of instance of SpecialSymbols and what kind of characters serif.plain.3 font
+#  has can be judged with the isCovered() method of instance of SpecialSymbols.
+#                                       
+
+# fontcharset.dialoginput.0=sun.io.CharToByteISO8859_1
+# fontcharset.dialoginput.1=sun.awt.CharToByteSymbol
+
+fontcharset.serif.0=sun.io.CharToByteISO8859_1
+fontcharset.serif.1=sun.io.CharToByteISO8859_1
+fontcharset.serif.2=sun.io.CharToByteISO8859_1
+
+fontcharset.sansserif.0=sun.io.CharToByteISO8859_1
+fontcharset.sansserif.1=sun.io.CharToByteISO8859_1
+fontcharset.sansserif.2=sun.io.CharToByteISO8859_1
+
+fontcharset.monospaced.0=sun.io.CharToByteISO8859_1
+fontcharset.monospaced.1=sun.io.CharToByteISO8859_1
+fontcharset.monospaced.2=sun.io.CharToByteISO8859_1
+
+fontcharset.dialog.0=sun.io.CharToByteISO8859_1
+fontcharset.dialog.1=sun.io.CharToByteISO8859_1
+fontcharset.dialog.2=sun.io.CharToByteISO8859_1
+# fontcharset.dialog.0=sun.io.CharToByteUnicodeBigUnmarked
+# fontcharset.dialog.1=sun.io.CharToByteUnicodeBigUnmarked
+# fontcharset.dialog.2=sun.io.CharToByteUnicodeBigUnmarked
+
+fontcharset.dialoginput.0=sun.io.CharToByteISO8859_1
+fontcharset.dialoginput.1=sun.io.CharToByteISO8859_1
+fontcharset.dialoginput.2=sun.io.CharToByteISO8859_1
+

@@ -1,0 +1,5 @@
+{
+	"items": [
+		{"name": "VNC Connection", "priority": 1, "action": "/mnt/us/kindlevncviewer/kvncviewer.sh hostname:port"}
+		]
+}

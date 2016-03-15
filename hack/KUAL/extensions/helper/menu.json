@@ -1,0 +1,50 @@
+{
+	"items": [
+	{
+		"name": "Helper",
+		"priority": -998,
+		"items": [
+		{
+			"if": "\"KindleTouch\" -m \"KindlePaperWhite\" -m \"KindlePaperWhite2\" -m \"KindleBasic\" -m \"KindleVoyage\" -m \"KindlePaperWhite3\" -m || || || || ||",
+			"name": "BEGIN Grayed Installer",
+			"priority": 1,
+			"action": "./bin/start_update.sh"
+		},
+		{
+			"name": "PREVENT ScreenSaver",
+			"priority": 2,
+			"action": "./bin/ssprevent.sh",
+			"exitmenu": false,
+			"checked": true,
+			"status": false,
+			"internal": "status Sleep mode disabled"
+		},
+		{
+			"name": "ALLOW ScreenSaver",
+			"priority": 3,
+			"action": "./bin/ssallow.sh",
+			"exitmenu": false,
+			"checked": true,
+			"status": false,
+			"internal": "status Sleep mode enabled"
+		},
+		{
+			"if": "\"KindleTouch\" -m \"KindlePaperWhite\" -m \"KindlePaperWhite2\" -m \"KindleBasic\" -m \"KindleVoyage\" -m  \"KindlePaperWhite3\" -m || || || || ||",
+			"name": "SHOW Network Info",
+			"priority": 4,
+			"action": "./bin/411.sh",
+			"params": "711"
+		},
+		{
+			"name": "Device ID",
+			"priority": 5,
+			"exitmenu": false,
+			"date": true,
+			"checked": true,
+			"refresh": false,
+			"action": "./bin/device_id.sh"
+		}
+		]
+	}
+	]
+}
