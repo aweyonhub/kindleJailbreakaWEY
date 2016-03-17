@@ -71,9 +71,10 @@ hack/kindle-jailbreak-0.13.N.zip
 
 # Font Settings
 kindle input:
-;debugOn				#打开 debug 模式
-~changeLocale zh-CN.utf8		#更改 Local 为 zh-CN.utf8
-;debugOff				#关闭 debug 模式，可以不输入
+
+    ;debugOn				#打开 debug 模式
+    ~changeLocale zh-CN.utf8		#更改 Local 为 zh-CN.utf8
+    ;debugOff				#关闭 debug 模式，可以不输入
 
 kindle-fonts-5.16.N-k2.zip for dxg
 kindle-fonts-5.16.N-k3.zip for k3
