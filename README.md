@@ -77,20 +77,16 @@ kindle input:
     ~changeLocale zh-CN.utf8		#更改 Local 为 zh-CN.utf8
     ;debugOff				#关闭 debug 模式，可以不输入
 
-kindle-fonts-5.16.N-k2.zip for dxg
-
-kindle-fonts-5.16.N-k3.zip for k3
-
-fonts-conf-wzyboy replace to linkfont/etc
-
+kindle-fonts-5.16.N-k2.zip for dxg  
+kindle-fonts-5.16.N-k3.zip for k3  
+fonts-conf-wzyboy replace to linkfont/etc    
 fonts/fonts/*.ttf to linkfont/font
 
 
 #Install apps
 ##launcher
 
-KUAL for kindle 3 
-
+KUAL for kindle 3  
 Launchpad for kindle dxg
 
 ###KUAL for kindle 3 
