@@ -3,9 +3,10 @@
 Kindle jailbreak settings&backup
 
 reference:
-http://wiki.mobileread.com/wiki/Kindle_Hacks_Information
-https://wzyboy.im/post/736.html
-https://www.chiphell.com/thread-932614-1-1.html
+
+* http://wiki.mobileread.com/wiki/Kindle_Hacks_Information
+* https://wzyboy.im/post/736.html
+* https://www.chiphell.com/thread-932614-1-1.html
 
 Structure:
 
@@ -85,7 +86,9 @@ fonts/fonts/*.ttf to linkfont/font
 #Install apps
 ##launcher
 
-KUAL for kindle 3 Launchpad for kindle dxg
+KUAL for kindle 3 
+
+Launchpad for kindle dxg
 
 ###KUAL for kindle 3 
 
